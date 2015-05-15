@@ -1,0 +1,1 @@
+Rewrite module loader code if possible: The fact that it's using a case statement is likely a source of slowdown.
