@@ -18,3 +18,22 @@ This file contains example database table structures, first in a table that defi
 | uniquemodulename		| apply-specialties	| NO		 | 					|       50 |
 | othermodulename		| village			| YES		 | do_village_stuff	|       50 |
 +-----------------------+-------------------+------------+------------------+----------+
+
+########
+## MOTD
+########
++--------+---------------------+------+-----+---------+----------------+
+| Field  | Type                | Null | Key | Default | Extra          |
++--------+---------------------+------+-----+---------+----------------+
+| ID	 | int(11) unsigned    | NO   | PRI | NULL    | auto_increment |
+| title  | varchar(200)        | YES  |     | NULL    |                |
+| body   | text                | YES  |     | NULL    |                |
+| date   | datetime            | YES  |     | NULL    |                |
+| type   | tinyint(4) unsigned | NO   |     | 0       |                | #This is in the default LotGD structure (as MOTDTYPE), not sure what it's used for
+| author | int(11) unsigned    | NO   |     | 0       |                |
++--------+---------------------+------+-----+---------+----------------+
++----+----------+---------------+---------------------+-------+--------+
+| ID | title	| body			| date				  | type  | author |
++----+----------+---------------+---------------------+-------+--------+
+|  1 | BAH		| PUNY MORTALS	| 2015-05-13 21:06:24 |		0 |		 1 |
++----+----------+---------------+---------------------+-------+--------+
