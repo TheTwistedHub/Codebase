@@ -1,0 +1,20 @@
+This file contains example database table structures, first in a table that defines the columns for the table, and then in an example table.
+
+########
+## MODULE_HOOKS
+########
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| modulename | varchar(40) | NO   | PRI | NULL    |       |
+| location   | varchar(40) | NO   | PRI | NULL    |       |
+| customfunc | bool		   | NO   | PRI | NULL    |       |
+| function   | varchar(30) | NO   | PRI | NULL    |       |
+| priority   | int(11)     | NO   |     | 50      |       |
++------------+-------------+------+-----+---------+-------+
++-----------------------+-------------------+------------+------------------+----------+
+| modulename			| location			| customfunc | function			| priority |
++-----------------------+-------------------+------------+------------------+----------+
+| uniquemodulename		| apply-specialties	| NO		 | 					|       50 |
+| othermodulename		| village			| YES		 | do_village_stuff	|       50 |
++-----------------------+-------------------+------------+------------------+----------+
