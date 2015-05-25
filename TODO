@@ -1,1 +1,10 @@
 Rewrite module loader code if possible: The fact that it's using a case statement is likely a source of slowdown.
+
+Sections that still need to be understood, add your name in brackets if you'll work on it:
+    Admin control
+    Module loading
+        Newday process?
+    Race modules
+    Village code
+    "Account" objects
+    Database layout [Tahvohck]
