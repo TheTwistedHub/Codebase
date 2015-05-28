@@ -1,0 +1,6 @@
+This file is a working area for any links that people think will be generally helpful to the project.
+As it gets more complex, it will need to be broken down into sections.
+##############
+##############
+
+http://stackoverflow.com/questions/1161473/how-can-php-talk-to-a-c-sharp-process-running-on-mono
