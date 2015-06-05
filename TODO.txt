@@ -1,0 +1,25 @@
+Sections that still need to be understood, add your name in brackets if you'll work on it:
+    Admin control
+    Module loading
+        Newday process?
+    Race modules
+    Village code
+    "Account" objects
+    Database layout [Tahvohck]
+	
+Sections that need to be made (DevCore). Create a feature branch if you're going to try to work on this.
+    Engines:
+		Accounts
+		Combat
+		Daily cycle
+		Chat
+    Modules:
+        "Races"
+		Locations
+			Static
+			Player-owned
+    Database layout [Tahvohck]
+		Database interface (maybe?)
+
+Rewrite module loader code if possible: The fact that it's using a case statement is likely a source of slowdown.
+	- Probably not as much as originally thought. While it should still be overhauled, switching on a string is not as bad as I thought.
