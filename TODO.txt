@@ -10,6 +10,7 @@ Sections that still need to be understood, add your name in brackets if you'll w
 Sections that need to be made (DevCore). Create a feature branch if you're going to try to work on this.
     Engines:
 		Accounts
+			!!FIGURE OUT PASSWORD METHODS!!
 		Combat
 		Daily cycle
 		Chat
